@@ -1,0 +1,28 @@
+.container{
+    background-color: var(--color-dark-desaturated-blue);
+    display: flex;
+    max-width:110rem;
+    margin: 17rem auto;
+    min-height:44.6rem;
+    border-radius: .8rem;
+    overflow: hidden;
+    //position: relative;
+}
+.text{
+    width:50%;//test
+    padding:5.5rem 0 5.5rem 5.5rem;
+}
+.img-box{
+    height: auto;
+    width:54rem;
+    background-image:  linear-gradient(to right bottom, var(--color-soft-violet),var(--color-soft-violet)),url("../images/image-header-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: multiply;
+    margin-left:auto;
+}
+
+.footer{
+    margin-top: auto;
+}
