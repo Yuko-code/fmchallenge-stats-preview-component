@@ -7,6 +7,10 @@
     --color-headings:hsla(0, 0%, 100%, 0.6);
 }
 
+$bp-large:70em;//1110/16=70%
+$bp-medium:57em;//900/16
+$bp-small:38.75em;//620/16=38.75%
+
 $small-text: 'Lexend Deca', sans-serif;
 
 *{
@@ -24,15 +28,18 @@ $small-text: 'Lexend Deca', sans-serif;
 html{
     box-sizing:border-box;
     font-size:62.5%;//1rem=10px, 10px/16px=62.5%
+    @media only screen and (max-width: $bp-large){
+            //font-size:50%;
+    }
 }
 
 body{
     font-family: 'Inter', sans-serif;
     font-weight:400;
-    line-height: 2.5;
     color:var(--color-paragraph);
     min-height:100vh;
     background-color: var(--color-very-dark-blue);
     display:flex;
     flex-direction: column;
+
 }

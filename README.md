@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Useful resources
 
-- []()
-- []()
+- [CSS :nth-of-type() Selector](https://www.w3schools.com/cssref/sel_nth-of-type.asp)
+- [background-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
 
 
 ## Author
